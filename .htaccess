@@ -1,0 +1,3 @@
+AddType "application/x-httpd-php" .html .htm .shtml .php
+RewriteEngine On
+RewriteRule ^(?!.*(\.js|\.css|\.gif|\.ico)$).* index.php

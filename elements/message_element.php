@@ -1,0 +1,1 @@
+<div class = "alert <?php echo getMessageType(); ?>"><?php echo getMessageText(); ?></div>
