@@ -77,7 +77,7 @@
 			</div>
 			<div class = "row">
 				<div class = "span12">
-					<h4>Вы&nbsp;можете <a href = "<?php echo getLink(ABOUT_PAGE); ?>">узнать о&nbsp;сайте больше</a> или <a href = "<?php echo getLink(REGISTER_PAGE); ?>">зарегистрироваться</a>.</h4>
+					<h4>Вы&nbsp;можете <a href = "<?php echo getLink(INTRO_PAGE); ?>">узнать о&nbsp;сайте больше</a> или <a href = "<?php echo getLink(REGISTER_PAGE); ?>">зарегистрироваться</a>.</h4>
 				</div>
 			</div>
 					

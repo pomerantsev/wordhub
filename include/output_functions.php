@@ -160,9 +160,9 @@ function getPageTitle($activePage) {
 		return "Администраторская статистика &mdash; Вордхаб";
 	case REGISTER_PAGE:
 		return "Регистрация &mdash; Вордхаб";
-	case ABOUT_PAGE:
+	case INTRO_PAGE:
 		return "О сайте &mdash; Вордхаб";
-	case ABOUT_FULL_PAGE:
+	case ABOUT_PAGE:
 		return "Подробно о сайте &mdash; Вордхаб";
 	case SETTINGS_PAGE:
 		return "Настройки &mdash; Вордхаб";

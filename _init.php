@@ -57,8 +57,8 @@ define("REGISTER_PAGE_FILE", "register.php");
 define("ABOUT_PAGE", "about");
 define("ABOUT_PAGE_FILE", "about.php");
 
-define("ABOUT_FULL_PAGE", "about_full");
-define("ABOUT_FULL_PAGE_FILE", "about_full.php");
+define("INTRO_PAGE", "intro");
+define("INTRO_PAGE_FILE", "intro.php");
 
 define("SETTINGS_PAGE", "settings");
 define("SETTINGS_PAGE_FILE", "settings.php");

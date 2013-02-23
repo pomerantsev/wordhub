@@ -35,10 +35,10 @@
 			include(getFullPath(LOGOUT_PAGE_FILE));
 		} else if ($pageName == REGISTER_PAGE) {
 			include(getFullPath(REGISTER_PAGE_FILE));
+		} else if ($pageName == INTRO_PAGE) {
+			include(getFullPath(INTRO_PAGE_FILE));
 		} else if ($pageName == ABOUT_PAGE) {
 			include(getFullPath(ABOUT_PAGE_FILE));
-		} else if ($pageName == ABOUT_FULL_PAGE) {
-			include(getFullPath(ABOUT_FULL_PAGE_FILE));
 		} else if ($pageName == SETTINGS_PAGE) {
 			include(getFullPath(SETTINGS_PAGE_FILE));
 		} else if ($pageName == DUPLICATE_USER_PAGE) {

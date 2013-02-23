@@ -77,7 +77,7 @@ function getEventMessage($eventId, $eventCount) {
 	if ($eventId == LOGIN_EVENT) {
 		// Пока вывод сообщения убрали, потому что сообщение здесь выводиться не должно, оно будет только в подчинённых событиях.
 		/*if ($eventCount == 1) {
-			$message = "_Это тестовое сообщение._ Спасибо, что зарегистрировались. Посмотрите, <a href = \"" . getLink(ABOUT_PAGE) . "\">о чём этот сайт</a>.";
+			$message = "_Это тестовое сообщение._ Спасибо, что зарегистрировались. Посмотрите, <a href = \"" . getLink(INTRO_PAGE) . "\">о чём этот сайт</a>.";
 		} */
 	} elseif ($eventId == REDIRECT_TO_STATS_EVENT) {
 		if ($eventCount == 2) {
@@ -91,11 +91,11 @@ function getEventMessage($eventId, $eventCount) {
 		}
 	} elseif ($eventId == CREATE_PAGE_OPENED_EVENT) {
 		if ($eventCount == 1) {
-			$message = "Это главная страница, на которой создаются карточки. Как их создавать &mdash; можно прочесть в разделе <a href = \"" . getLink(ABOUT_FULL_PAGE) . "#everyDay\">&laquo;О сайте&raquo;</a>.";
+			$message = "Это главная страница, на которой создаются карточки. Как их создавать &mdash; можно прочесть в разделе <a href = \"" . getLink(ABOUT_PAGE) . "#everyDay\">&laquo;О сайте&raquo;</a>.";
 		}
 	} elseif ($eventId == REPEAT_PAGE_OPENED_EVENT) {
 		if ($eventCount == 1) {
-			$message = "Здесь появляется набор карточек на день. Почему заниматься лучше каждый день &mdash; смотрите в разделе <a href = \"" . getLink(ABOUT_FULL_PAGE) . "#everyDay\">&laquo;О сайте&raquo;</a>.";
+			$message = "Здесь появляется набор карточек на день. Почему заниматься лучше каждый день &mdash; смотрите в разделе <a href = \"" . getLink(ABOUT_PAGE) . "#everyDay\">&laquo;О сайте&raquo;</a>.";
 		}
 	} elseif ($eventId == STATS_PAGE_OPENED_EVENT) {
 		if ($eventCount == 1) {

@@ -30,8 +30,8 @@
 		<li class = "<?php echo getMenuItemClass($activePage, STATS_PAGE); ?>">
 			<a href="<?php echo getLink(STATS_PAGE); ?>">Статистика и все карточки</a>
 		</li>
-		<li class = "<?php echo getMenuItemClass($activePage, ABOUT_PAGE) . " " . getMenuItemClass($activePage, ABOUT_FULL_PAGE); ?>">
-			<a href="<?php echo getLink(ABOUT_PAGE); ?>">О сайте</a>
+		<li class = "<?php echo getMenuItemClass($activePage, INTRO_PAGE) . " " . getMenuItemClass($activePage, ABOUT_PAGE); ?>">
+			<a href="<?php echo getLink(INTRO_PAGE); ?>">О сайте</a>
 		</li>
 		
 		<!-- Дропдаун подсвечивается как активный, когда выбран один из пунктов меню, входящих в него. -->

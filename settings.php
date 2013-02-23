@@ -24,7 +24,7 @@
 					<h2>Настройки</h2>
 					<form action = "<?php /*echo SETTINGS_PAGE;*/ ?>" method = "post">
 						<h4>Дневной лимит на создание карточек</h4>
-						<p>Его необязательно соблюдать, но это <a href = "<?php echo getLink(ABOUT_FULL_PAGE); ?>#everyDay">очень подстёгивает</a>.</p>
+						<p>Его необязательно соблюдать, но это <a href = "<?php echo getLink(ABOUT_PAGE); ?>#everyDay">очень подстёгивает</a>.</p>
 						<input type="number" min = "<?php echo MIN_DAILY_LIMIT; ?>" max = "<?php echo MAX_DAILY_LIMIT; ?>" step = "1" name = "dailyLimit" value = "<?php if (!isset($dailyLimit)) {echo getDailyLimit(getUserId());} else {echo $dailyLimit;} ?>" />
 						<!--<h4>Отправка писем <small class = "muted">Отправляются только тем, кто подтвердил почту.</small></h4>
 						<label class = "checkbox">
