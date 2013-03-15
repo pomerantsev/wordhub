@@ -1,5 +1,7 @@
 tempfile.txt
 .DS_Store
+.project
+.settings
 *.zip
 *.gz
 log/*.log
