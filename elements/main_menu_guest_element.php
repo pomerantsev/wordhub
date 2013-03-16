@@ -1,4 +1,4 @@
-<a class = "brand" href = "<?php echo getLink(HOME_PAGE); ?>">WordHub</a>
+<a class = "brand" href = "<?php echo getLink(HOME_PAGE); ?>">Word</a>
 
 <ul class="nav pull-right">
 	<li class = "<?php echo getMenuItemClass($activePage, INTRO_PAGE) . " " . getMenuItemClass($activePage, ABOUT_PAGE); ?>">
